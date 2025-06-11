@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Thesis Hub.md",
+                "file": "Technical-Notes/Jupyter-Workflows/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thesis Hub"
+              "title": "README"
             }
           }
         ]
@@ -170,11 +170,26 @@
   },
   "active": "9f221a9f0102f90c",
   "lastOpenFiles": [
+    "Tasks/Validation-Report.md",
+    "Technical-Notes/Model-Pipeline/README.md",
+    "03-Methodology/Architectural-Innovations.md",
+    "Technical-Notes/README.md",
     "README.md",
-    "00-Index/Quick Links.md",
-    "00-Index/Chapter Navigation.md",
     "00-Index/Thesis Hub.md",
+    "00-Index/Quick Links.md",
+    "05-Results/Performance-Analysis/Benchmark-Results.md",
+    "02-Literature-Review/Face-Detection-Approaches/Traditional-Methods.md",
     "00-Index/Project Timeline.md",
+    "Technical-Notes/Jupyter-Workflows/README.md",
+    "Technical-Notes/Dataset-Management/README.md",
+    "00-Index/Chapter Navigation.md",
+    "Technical-Notes/FeatherFace-Fork/README.md",
+    "Templates/README.md",
+    "Templates/Weekly-Review-Template.md",
+    "Templates/Meeting-Notes-Template.md",
+    "Templates/Technical-Documentation-Template.md",
+    "Templates/Experiment-Log-Template.md",
+    "Templates/Literature-Note-Template.md",
     "Literature/Integrated/README.md",
     "Literature/Reading/README.md",
     "01-Introduction/README.md",
