@@ -1,0 +1,89 @@
+\chapter{Introduction Générale}
+\begin{onehalfspace}
+
+\section{Contexte général de l'étude}
+
+\hspace{0.65 cm} La biométrie faciale, révolutionne les méthodes d'authentification dans de nombreux secteurs. Cette technologie trouve des applications diverses, de la sécurité aéroportuaire au déverrouillage des smartphones, en passant par la surveillance urbaine et le contrôle d'accès en entreprise. Dans le secteur éducatif en particulier, où l'optimisation des processus administratifs devient cruciale, la biométrie faciale offre des perspectives prometteuses pour la gestion automatisée des présences \cite{2024Raj10522165}
+
+\hspace{0.65 cm}L'optimisation des systèmes de reconnaissance faciale pour les appareils mobiles représente aujourd'hui un défi majeur dans le domaine de l'apprentissage profond, particulièrement en mode hors ligne. Dans les établissements d'enseignement, où le suivi des présences reste une tâche chronophage, les méthodes traditionnelles comme les appels nominaux et les feuilles d'émargement montrent leurs limites, étant non seulement chronophages mais aussi vulnérables à la fraude. La reconnaissance faciale sur mobile s'impose comme une solution pertinente face à d'autres alternatives : contrairement aux systèmes d'empreintes digitales qui nécessitent une authentification séquentielle, ou aux badges RFID facilement transférables, elle permet une identification simultanée et non falsifiable de multiples étudiants \cite{2021Brown9395836}. De plus, en s'appuyant sur les smartphones déjà disponibles, cette approche évite tout investissement matériel supplémentaire tout en garantissant un fonctionnement hors ligne adapté aux contraintes de connectivité des établissements \cite{2020Bhat9155755}.
+
+\hspace{0.65 cm}L'émergence des techniques d'apprentissage profond, en particulier les réseaux de neurones convolutifs (CNN), a transformé la reconnaissance faciale. Toutefois, leur déploiement sur appareils mobiles est confronté à des contraintes significatives : ressources matérielles limitées, nécessité d'un fonctionnement hors ligne, et variations environnementales en salle de classe. L'optimisation de ces modèles pour maintenir des performances élevées sous ces contraintes constitue un défi technique majeur \cite{2024Fernando18302}
+
+
+
+
+\section{Problématique}
+
+\hspace{0.65 cm} Les systèmes de reconnaissance faciale basés sur l'apprentissage profond comprennent deux phases principales : la détection des visages dans l'image et la génération des enregistrements de caractéristiques (feature embeddings) \cite{2023Deng12903}. Si ces systèmes atteignent aujourd'hui des performances remarquables sur des images de haute qualité, leur déploiement sur appareils mobiles pour le marquage de présence en milieu académique se heurte à la réalité des images capturées en classe : résolution limitée (typiquement 640x480 pixels ou moins après compression), qualité variable, et présence de multiples visages \cite{2022khabar05572}.
+
+\hspace{0.65 cm} Dans ce pipeline de traitement, la phase de détection multi-visages sur images de faible résolution constitue le défi majeur. En effet, alors que la génération d'embeddings peut être optimisée par un pré-enregistrement contrôlé des étudiants avec des images de bonne qualité, la détection doit traiter des images où chaque visage peut n'occuper que 20x20 à 32x32 pixels, avec une qualité dégradée par :
+
+\begin{itemize}
+     \item La compression automatique des images (JPEG avec facteur de qualité souvent inférieur à 75%)
+     \item Les conditions d'éclairage variables des salles de classe (mixte naturel/artificiel)
+     \item Les mouvements lors de la capture créant du flou
+     \item Les occlusions partielles entre étudiants
+     
+\end{itemize}
+
+\hspace{0.65 cm}La nécessité d'un fonctionnement hors ligne, imposée par le contexte académique où la connexion internet n'est pas toujours fiable, ajoute une contrainte supplémentaire : tout le traitement doit être effectué localement sur le mobile avec des ressources limitées.
+
+\hspace{0.65 cm}Dans ce contexte, la problématique centrale réside dans l'optimisation d'un système de détection multi-visages basé sur l'apprentissage profond pour traiter efficacement des images de faible résolution sur mobile en mode hors ligne. Cette optimisation doit surmonter plusieurs défis techniques :
+\begin{itemize}
+     \item L'adaptation des architectures CNN pour détecter des visages de 20x20 à 32x32 pixels avec une précision supérieure à 90%
+     \item L'optimisation des modèles pour maintenir un temps de traitement inférieur à 500ms par image sur mobile
+     \item La gestion des dégradations d'image avec un taux de faux négatifs inférieur à 5\% sous différentes conditions d'éclairage
+     \item Le maintien d'une empreinte mémoire inférieure à 100MB pour l'ensemble du système
+     
+\end{itemize}
+
+
+\section{Questions de recherche}
+
+\hspace{0.65 cm} Comment optimiser un système de détection multi-visages par apprentissage profond pour une exécution efficace sur mobile en mode hors ligne dans un contexte de marquage de présence académique ?
+
+\begin{itemize}
+     \item Quel impact ont les différentes architectures CNN sur les performances de détection multi-visages en termes de précision et de ressources mobiles ?
+     \item Comment améliorer la robustesse du système face aux variations d'éclairage et aux occlusions dans un environnement de classe ?
+     \item Quelles techniques d'optimisation permettent de maintenir les performances en mode hors ligne sous contraintes mobiles ?
+     
+\end{itemize}
+
+\section{Objectifs de recherche}
+
+\hspace{0.65 cm} Développer un système optimisé de détection multi-visages par apprentissage profond pour le marquage automatique des présences sur mobile en mode hors ligne.
+
+\begin{itemize}
+
+    \item Évaluer l'impact des différentes architectures CNN sur la performance de détection multi-visages pour smartphones, en considérant le compromis précision/ressources ;
+    \item Implémenter des techniques d'amélioration de la robustesse du système face aux variations d'illumination et aux occlusions dans un environnement de classe ;
+    \item Optimiser l'exécution du système en mode hors ligne à travers des techniques de compression et d'accélération adaptées aux contraintes mobiles.
+  
+
+\end{itemize}
+
+\section{Importance de l'étude}
+Cette recherche revêt une importance significative à plusieurs niveaux :
+
+\begin{itemize}
+
+    \item Académique : Elle contribue à l'optimisation des modèles d'apprentissage profond pour les systèmes mobiles, proposant des solutions innovantes pour l'exécution hors ligne de tâches complexes.
+    \item Technique : L'étude développe des techniques d'optimisation applicables à d'autres domaines nécessitant le déploiement de modèles d'apprentissage profond sur appareils mobiles.
+    \item  Pratique : Le système apporte une solution concrète aux établissements d'enseignement pour la gestion automatisée des présences, adaptée aux contraintes réelles du terrain.
+  
+
+\end{itemize}
+
+
+\section{Plan du mémoire}
+\hspace{0.65 cm} Cette etude comprendra les chapitres suivants :
+\begin{itemize}
+    \item \textbf{Revue de la littérature (chapitre 2) :} ce chapitre passe en revue la littérature sur les systèmes de reconnaissance faciale, les réseaux de neurones convolutifs (CNN), les techniques d'optimisation des modèles, les défis de la reconnaissance faciale en temps réel sur mobile, et les applications de la reconnaissance faciale dans l'éducation.
+    
+    \item \textbf{Méthodologie (chapitre 3) :} ce chapitre comprend l'approche méthodologique, incluant la collecte et le prétraitement des données, l'architecture du système de reconnaissance faciale proposé, les techniques d'optimisation pour mobile, et le protocole expérimental avec les métriques d'évaluation.
+    
+    \item \textbf{Résultats et discussions (chapitre 4) :} les résultats de l'étude sont présentés dans ce chapitre, ainsi que des informations sur les performances du système de reconnaissance faciale en décrivant l'impact des différentes architectures CNN, les effets de la quantification, et l'influence des techniques d'optimisation.
+    
+    \item \textbf{Conclusion (chapitre 5) :} ce chapitre présente des recommandations pour l'optimisation de la détection des visages dans des systèmes de reconnaissance faciale destinés aux salles de classe, décrit les principaux résultats de l'étude et réaffirme les objectifs de la recherche.
+\end{itemize}
+\end{onehalfspace} 

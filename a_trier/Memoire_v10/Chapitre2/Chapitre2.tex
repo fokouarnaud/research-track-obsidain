@@ -1,0 +1,88 @@
+\chapter{Méthodologie}
+\begin{onehalfspace}
+
+
+\hspace{0.65cm} Cette section présente notre approche méthodologique pour optimiser ADYOLOv5-Face en vue de son déploiement sur mobile pour la détection multi-visages en conditions réelles de salle de classe. Notre méthodologie se structure en quatre phases principales : préparation des données, optimisation architecturale, optimisation pour mobile, et évaluation.
+
+\section{Préparation des données}
+
+\subsection{Collecte et annotation}
+\hspace{0.65cm} Pour assurer la robustesse du modèle aux conditions spécifiques des salles de classe, nous constituons un dataset hybride combinant :
+\begin{itemize}
+    \item WIDER FACE comme base d'entraînement générique
+    \item Un dataset propriétaire de 10,000 images de salles de classe capturées dans différentes conditions d'éclairage et configurations
+\end{itemize}
+
+\subsection{Augmentation des données}
+\hspace{0.65cm} Nous appliquons des techniques d'augmentation ciblées pour améliorer la robustesse :
+\begin{itemize}
+    \item Variations d'illumination : ajustement gamma (0.5-1.5), contraste (±30\%)
+    \item Occlusions simulées : masquage aléatoire (10-30\% de la surface des visages)
+    \item Flou de mouvement : noyaux de convolution directionnels (angle 0-360°)
+    \item Compression JPEG : qualité variable (50-95)
+\end{itemize}
+
+\section{Optimisation architecturale}
+
+\subsection{Modification du réseau dorsal}
+\hspace{0.65cm} Pour réduire la complexité computationnelle tout en maintenant les performances :
+\begin{itemize}
+    \item Remplacement des couches standards par des convolutions séparables en profondeur
+    \item Introduction de connexions résiduelles compressées
+    \item Réduction progressive des canaux par block suivant une stratégie pyramidale
+\end{itemize}
+
+\subsection{Optimisation du mécanisme Gather-and-Distribute}
+\hspace{0.65cm} Amélioration de l'efficacité du GD via :
+\begin{itemize}
+    \item Fusion adaptative des caractéristiques basée sur l'attention
+    \item Compression des chemins de propagation
+    \item Élagage dynamique des connexions peu utilisées
+\end{itemize}
+
+\section{Optimisation pour mobile}
+
+\subsection{Quantification des poids}
+\hspace{0.65cm} Application d'une stratégie de quantification hybride :
+\begin{itemize}
+    \item INT8 pour les couches convolutives génériques
+    \item FP16 pour les couches sensibles (GD et têtes de détection)
+    \item Calibration par lots sur données représentatives
+\end{itemize}
+
+\subsection{Élagage du modèle}
+\hspace{0.65cm} Mise en œuvre d'un élagage structuré :
+\begin{itemize}
+    \item Analyse de sensibilité par couche
+    \item Élagage progressif des filtres moins importants
+    \item Fine-tuning avec curriculum learning
+\end{itemize}
+
+\subsection{Distillation de connaissances}
+\hspace{0.65cm} Transfert des capacités vers une architecture plus légère :
+\begin{itemize}
+    \item Distillation des caractéristiques intermédiaires
+    \item Alignement des cartes d'attention
+    \item Supervision privilégiée des têtes spécialisées
+\end{itemize}
+
+\section{Protocole d'évaluation}
+
+\subsection{Métriques de performance}
+\begin{itemize}
+    \item Précision : mAP sur WIDER FACE (Easy, Medium, Hard)
+    \item Efficience : FLOPs, paramètres, temps d'inférence
+    \item Robustesse : performances sous variations d'illumination/occlusion
+\end{itemize}
+
+\subsection{Validation sur mobile}
+\begin{itemize}
+    \item Tests sur différentes gammes de smartphones
+    \item Mesures de latence et consommation mémoire
+    \item Évaluation en conditions réelles de classe
+\end{itemize}
+
+\hspace{0.65cm} Cette méthodologie vise à réduire les GFLOPs d'ADYOLOv5-Face de 22.8 à environ 5-7 tout en maintenant un mAP supérieur à 90\% via une approche systématique d'optimisation multi-niveaux.
+
+
+\end{onehalfspace} 

@@ -1,0 +1,55 @@
+\select@language {english}
+\select@language {french}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typologie des jeux d'apr\IeC {\`e}s \citet {de1995pedagogie} \relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mod\IeC {\`e}le en V d'apr\IeC {\`e}s \citet {pyhajarvi2004integrating}\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Approches de gestion d'un projet d'apr\IeC {\`e}s \citet {wysocki2011effective}\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Le cycle de vie de \gls {xp} \citet {Cohn2001ACO} \relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Planification en Scrum \citet {wysocki2011effective}\relax }}{19}{figure.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diangramme de packages du jeu\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diangramme de cas d'utilisation du SCORQ-EDU\relax }}{30}{figure.caption.26}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme d\IeC {\textquoteright }\IeC {\'e}tat-transition des sc\IeC {\'e}narios\relax }}{37}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme d\IeC {\textquoteright }\IeC {\'e}tat-transition des sc\IeC {\'e}narios sur les niveaux\relax }}{37}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (a), (b) et (c) sont les images respectives du joueur au niveau 1 ,2 et 3 et (d) les images des deux bandits\relax }}{38}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{38}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{38}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{38}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{38}{figure.caption.33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Les diff\IeC {\'e}rents arri\IeC {\`e}re-plans\relax }}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {La ville de Yaound\IeC {\'e}}}}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Le village}}}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {La ville de Yaound\IeC {\'e}}}}{38}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {La bari\IeC {\`e}rre entre deux niveaux}}}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip (a), (b), (c)et (d) sont les diff\IeC {\'e}rents fruits \IeC {\`a} manger et (e), (f), (g), (h), (i) et (j) les obstacle \IeC {\`a} esquiver \relax }}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Les diff\IeC {\'e}rentes interfaces du jeu livr\IeC {\'e}\relax }}{40}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Interface de d\IeC {\'e}but du jeu (niveau 1)}}}{40}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Interface de la sortie du niveau 1 pour niveau 2}}}{40}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Interface de niveau 2)}}}{40}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Interface de niveau 3}}}{40}{figure.caption.37}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme des cas d'utilisation de gestion des exercices\relax }}{41}{figure.caption.39}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagramme de classe de gestion d'exercice\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Les diff\IeC {\'e}rentes interfaces de gestion d'exercices\relax }}{44}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Interface de l'ajout d'exercice}}}{44}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Interface de la mise \IeC {\`a} jour des questions}}}{44}{figure.caption.45}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme des cas utilisation de suivi des \IeC {\'e}l\IeC {\`e}ves\relax }}{45}{figure.caption.47}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagramme de gestion des utilisateurs\relax }}{48}{figure.caption.52}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Les diff\IeC {\'e}rentes interfaces d'authentification des utilisateurs\relax }}{48}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Interface de l'authentification de l'utilisateur}}}{48}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Interface de l'authentification de l'enseignant}}}{48}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Interface de l'authentification de l'\IeC {\'e}l\IeC {\`e}ve}}}{48}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Interface de la cr\IeC {\'e}ation du compte enseignant}}}{48}{figure.caption.53}
+\addvspace {10\p@ }
+\select@language {english}

@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "33a8ead467ac180b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8625fadfb8ba68a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f221a9f0102f90c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Index/Thesis Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thesis Hub"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30817974559622fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbe0a44c00d78144",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9252b1981dae63ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "028219489c1ee007",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0fc9c96b8462a1d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6bb91f6feff7e014",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f0267160f414213",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b892fff60855bfa7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "ddba837f8bb98e4d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "0ae6b209f1a29eb2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89c20a7d2126952e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9f221a9f0102f90c",
+  "lastOpenFiles": [
+    "README.md",
+    "00-Index/Quick Links.md",
+    "00-Index/Chapter Navigation.md",
+    "00-Index/Thesis Hub.md",
+    "00-Index/Project Timeline.md",
+    "Literature/Integrated/README.md",
+    "Literature/Reading/README.md",
+    "01-Introduction/README.md",
+    "TASKS.md",
+    "Attachments/Code-Snippets",
+    "Attachments/Tables",
+    "Attachments/Diagrams",
+    "Attachments/Images",
+    "Literature/Integrated",
+    "Literature/Notes-Complete",
+    "Literature/Read",
+    "Literature/Reading",
+    "Literature/To-Read",
+    "Technical-Notes/Model-Pipeline",
+    "mcp-obsidian/README.md",
+    "Welcome.md"
+  ]
+}
